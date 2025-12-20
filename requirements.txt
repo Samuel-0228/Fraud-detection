@@ -5,8 +5,8 @@ imbalanced-learn==0.12.0
 matplotlib==3.8.2
 seaborn==0.13.0
 jupyter==1.0.0
-ipaddress==1.0.23  # Built-in, but for clarity
-shap==0.44.0  # For later tasks
-xgboost==2.0.3  # For modeling
+ipaddress==1.0.23 
+shap==0.44.0  
+xgboost==2.0.3  
 joblib==1.3.2
-pyarrow==14.0.1  # For Parquet
+pyarrow==14.0.1  
