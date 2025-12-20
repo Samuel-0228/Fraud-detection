@@ -29,12 +29,11 @@ def clean_fraud_data(df):
         # Non-inplace to avoid FutureWarning
         df['age'] = df['age'].fillna(median_age)
 
-    # Cap purchase_value outliers (99th percentile)
     if 'purchase_value' in df.columns:
         p99 = df['purchase_value'].quantile(0.99)
         df['purchase_value'] = np.clip(df['purchase_value'], 0, p99)
 
-    # Remove duplicates
+  
     df = df.drop_duplicates()
 
     return df
