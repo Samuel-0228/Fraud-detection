@@ -26,3 +26,8 @@ This project develops machine learning models to detect fraud in e-commerce and 
 - Class imbalance handled with SMOTE strategy.
 - See `notebooks/` for details.
 
+## Interim-2: Model Building
+- Run `notebooks/modeling.ipynb` after EDA/feature-eng for baselines/ensembles.
+- Metrics: AUC-PR ~0.8+ for ensemble; see saved models in /models/.
+- Best Model: XGBoost (justified in notebook).
+- Setup: Same as Interim-1; run `pytest tests/` for validation.
