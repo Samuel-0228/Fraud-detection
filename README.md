@@ -46,7 +46,7 @@ Key Outcomes:
 - **Impact**: Real-time rules from SHAP reduce risks; future: API deploy.
 
 ![Project Flow](notebooks/images/project_pipeline.png)  
-*(Pipeline: EDA → Features → Models → SHAP; create via draw.io or notebook fig.)*
+
 
 ## 1. Business Context and Challenges
 Fraud costs e-comm/banks billions; our models address:
